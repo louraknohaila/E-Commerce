@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Conseils </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="assets/css/generic.css" />
+		<style>
+		</style>
+	</head>
+	<body class="is-preload">
+		<div id="modal">
+			<div id="modal-content">
+				<h2>Conseils de Beauté</h2>
+				  <div class="cntainer">
+						<h3>Cheveux</h3>
+			<div class="info">
+			    <p class="one" >   Hydratez vos cheveux régulièrement avec un bon masque capillaire. </p>
+				<p class="two"><span class="left">&lt;</span>  2. Évitez l'utilisation excessive de chaleur sur vos cheveux pour prévenir les dommages. <span class="right">&gt;</span></p>		
+			</div>
+
+                       <h3>Visage</h3>
+			<div class="info">
+				<p  class="one">  Nettoyez votre visage matin et soir pour maintenir une peau propre. </p>
+				<p class="two"> <span class="left"><</span>  2. Utilisez des produits adaptés à votre type de peau pour de meilleurs résultats. <span class="right">></span></p>
+			</div>
+				
+					  <h3>Corps</h3>
+			<div class="info">
+				<p  class="one">  Hydratez votre peau quotidiennement pour la maintenir douce et souple. </p>
+				<p class="two"> <span class="left"><</span>  2. Choisissez des produits de bain qui conviennent à votre type de peau. <span class="right">></span></p>	
+			</div>
+
+			        <h3>Bébé</h3>
+			<div class="info">
+				<p  class="one">  Utilisez des produits doux conçus pour la peau délicate de votre bébé. </p>
+				<p class="two"> <span class="left"><</span>  2. Évitez les parfums forts qui pourraient irriter la peau sensible de votre bébé.<span class="right">></span></p>
+			</div>
+				  </div>
+			</div>
+		</div>
+		<script>
+		   document.querySelector('.right').addEventListener('click', function() {
+            document.querySelector('.two').style.display = 'block';
+            document.querySelector('.one').style.display = 'none';
+			console.log('c cliquer');
+        });
+
+      	</script>
+	     	<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/new.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,174 @@
+
+#menu ul a {
+padding: 0.625em 0;
+display: flex;
+align-items: center;
+}
+
+#menu ul a i {
+margin-right: 5.5em; /* Ajustez cet espace selon vos préférences */
+}
+
+body{
+    background-image: url('images/bh.png');
+    background-size: cover;
+    overflow: hidden;
+}
+h1{
+    font-family: 'Tangerine', cursive;
+    font-size: 90px;
+    font-weight: 800;
+    position : relative;
+    bottom: 180px;
+}
+#banner{
+    position : relative;
+    left: 125px;
+}
+.images {
+      position : fixed;
+      left: 500px;
+      bottom: -10px;
+}
+p{
+    width: 400px;
+    margin-left: 45px;
+    position : relative;
+    bottom: 220px;
+}
+h6{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    letter-spacing: 9px;
+    position : relative;
+    bottom: 240px;
+    left: 55px;
+}
+button {
+    position: relative;
+    left: 140px;
+    bottom: 220px;
+    padding: 0px 45px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #181818;
+    cursor: pointer;
+    border: 1px solid #fec195;
+    border-radius: 8px;
+    text-align: center;
+    filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.2));
+       }
+       #footer{
+        position : relative;
+        top: 200px;
+       }
+
+button:hover {
+cursor: pointer;
+}
+
+@keyframes wind {
+0% {
+background-position: 0% 50%;
+}
+
+0% {
+background-position: 50% 100%;
+}
+
+0% {
+background-position: 0% 50%;
+}
+}
+
+.icon-1 {
+position: absolute;
+top: 0;
+right: 0;
+width: 25px;
+transform-origin: 0 0;
+transform: rotate(10deg);
+transition: all 0.5s ease-in-out;
+filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.3));
+}
+
+button .icon-1 {
+animation: slay-1 1s cubic-bezier(0.52, 0, 0.58, 1) infinite;
+transform: rotate(10deg);
+}
+
+@keyframes slay-1 {
+0% {
+transform: rotate(10deg);
+}
+
+50% {
+transform: rotate(-5deg);
+}
+
+100% {
+transform: rotate(10deg);
+}
+}
+
+.icon-2 {
+position: absolute;
+top: 0;
+left: 25px;
+width: 12px;
+transform-origin: 50% 0;
+transform: rotate(10deg);
+transition: all 1s ease-in-out;
+filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+}
+
+button .icon-2 {
+animation: slay-2 1s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;
+transform: rotate(0);
+}
+
+@keyframes slay-2 {
+0% {
+transform: rotate(0deg);
+}
+
+50% {
+transform: rotate(15deg);
+}
+
+100% {
+transform: rotate(0);
+}
+}
+
+.icon-3 {
+position: absolute;
+top: 0;
+left: 0;
+width: 18px;
+transform-origin: 50% 0;
+transform: rotate(-5deg);
+transition: all 1s ease-in-out;
+filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
+}
+
+button .icon-3 {
+animation: slay-3 1s cubic-bezier(0.52, 0, 0.58, 1) 1s infinite;
+transform: rotate(0);
+}
+
+@keyframes slay-3 {
+0% {
+transform: rotate(0deg);
+}
+
+50% {
+transform: rotate(-5deg);
+}
+
+100% {
+transform: rotate(0);
+}
+}
+
